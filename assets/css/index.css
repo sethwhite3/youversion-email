@@ -1,0 +1,194 @@
+:root {
+  --main-bg-color: #f4f4f4;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+/* subject */
+.subject-header {
+  background-color: var(--white);
+  margin: -8px;
+  padding: 20px;
+}
+
+.subject-title {
+  color: #504f4f;
+}
+
+.subject-message {
+  color: #7f7f7f;
+}
+
+/* header-content */
+.header-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 24px;
+}
+
+.header-image {
+  width: 50px;
+}
+
+.header-text {
+  color: #606061;
+  font-size: 2rem;
+}
+
+/* main-content */
+.content-main {
+  background-color: var(--white);
+  color: #555555;
+  padding-bottom: 25px;
+  margin: 0px 25px;
+}
+
+.content-main p {
+  padding: 0 25px;
+}
+
+.content-image {
+  width: 100%;
+}
+
+.content-important-text {
+  color: #256a81;
+}
+
+.content-plans {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 100px 25px 0 25px;
+}
+
+.content-plan-image {
+  height: 75px;
+  object-fit: contain;
+}
+
+.content-plan {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+}
+
+.content-plan-author {
+  font-size: 12px;
+}
+
+.content-plan-button {
+  border-color: transparent;
+  width: 90%;
+  background-color: #256a81;
+  border-radius: 4px;
+  padding: 8px;
+  color: var(--white);
+  font-size: 1rem;
+}
+
+.footer {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  width: 35px;
+}
+
+.footer-fun-icons {
+  display: flex;
+  gap: 50%;
+  justify-content: center;
+}
+
+.m-t-sm {
+  margin-top: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-primary-button {
+  background-color: #128bff;
+  color: var(--white);
+  padding: 6px 15px;
+  border-color: transparent;
+  font-size: 0.75rem;
+}
+
+.footer-secondary-button {
+  font-size: 0.75rem;
+  background-color: var(--white);
+  color: black;
+  padding: 6px 15px;
+  border-color: transparent;
+}
+
+.footer-info-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-align: -webkit-center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.footer-info {
+  width: 70%;
+}
+
+.footer-anchor-text {
+  text-decoration: underline;
+  color: #128bff;
+}
+
+.youversion-logo {
+  height: 1.5rem;
+}
+
+/* styles */
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/* text styles */
+.transform-upper {
+  text-transform: uppercase;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gray-text {
+  color: #9a9a9a;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.w-70 {
+  width: 70%;
+}
